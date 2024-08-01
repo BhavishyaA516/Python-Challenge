@@ -1,0 +1,14 @@
+def AliceMagicalShoes(input1,input2):
+    count=0
+    for i in input2:
+        if(i%3==0):
+            count=count+1
+    return count
+input1=5
+input2=[21,18,3,6,4]
+print(AliceMagicalShoes(input1,input2))
+
+input1=5
+input2=[1,1,1,1,1]
+print(AliceMagicalShoes(input1,input2))
+
